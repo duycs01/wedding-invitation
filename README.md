@@ -1,7 +1,3 @@
-# Thiệp cưới Văn Minh & Thị Thảo
-
-Bản HTML/CSS/JavaScript tĩnh dựa trên mẫu:
-https://thiepdep.online/thiep/nguyen-van-minh-tran-thi-thao-102721
 
 ## Chạy
 Giải nén và mở index.html bằng trình duyệt. Không cần npm hoặc build.
