@@ -5,7 +5,7 @@
    ========================================================== */
 
 const CONFIG = {
-    weddingDate: new Date('2026-11-29T18:00:00+07:00'),
+    weddingDate: new Date('2026-11-29T06:00:00+07:00'),
 
     storageKeys: {
         wishes: 'wedding-duy-giang-wishes',
@@ -810,7 +810,7 @@ setupDialog(
     }
 
     function selectGift(index) {
-        current = CONFIG.gifts[index] || CONFIG.gifts[0];
+        current = CONFIG.gifts[index] || CONFIG.gifts[1];
 
         tabs.forEach((tab, i) => {
             tab.setAttribute('aria-pressed', String(i === index));
@@ -881,10 +881,10 @@ setupDialog(
     });
 
     giftDialog.addEventListener('close', () => {
-        selectGift(0);
+        selectGift(1);
     });
 
-    selectGift(0);
+    selectGift(1);
 })();
 
 
